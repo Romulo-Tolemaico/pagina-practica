@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #251F24;
+
+}
+
+h4 {
+    color: #fff;
+}
+
+a {
+    color: #A5A3A5;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.nav-main {
+    padding: 30px;
+}
+
+.nav-main ul li {
+    padding: 50px;
+}
