@@ -91,7 +91,8 @@ h3{
     color: #ffffff;
     font-family: 'Nunito', sans-serif;
     font-size: 32px;
-    margin: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
     width: 636px;
     height: 44px;
 }
@@ -103,11 +104,29 @@ h4{
 p{
     color: #A5A3A5;
     font-size: 17px;
-    margin: 16px;
+    margin-left: 16px;
     width: 636px;
-    height: 72px;
     font-family: 'Roboto', sans-serif;
 }
+
+.textHeader{
+    height: 72px;
+}
+
+.textSetup1{
+    height: 48px;
+}
+.textSetup2{
+    height: 96px;
+}
+.textSetup3{
+    height: 72px;
+}
+.textSetup4{
+    height: 96px;
+}
+
+
 /*linea*/
 hr{
     margin-left: 16px;
@@ -115,4 +134,41 @@ hr{
     margin-bottom: 40px;
     width: 636px;
     color: #A5A3A5;
+}
+/*imagenes*/
+.imgbig{
+    width: 80px;
+    height: 80px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+/*cajas*/
+.divgoogle{
+    width: 636px;
+    height: 204px;
+    margin-left: 16px;
+    margin-bottom: 40px;
+}
+
+.divvisual{
+    width: 636px;
+    height: 252px;
+    margin-left: 16px;
+    margin-bottom: 40px;
+}
+
+.divfigma{
+    width: 636px;
+    height: 228px;
+    margin-left: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.divgithub{
+    width: 636px;
+    height: 252px;
+    margin-left: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
