@@ -20,6 +20,7 @@ body{
 .conteiner{
     width: 90%;
     margin: auto;
+    margin-bottom: 80px;
 }
 
 .showcase{
@@ -208,6 +209,17 @@ p{
 .textdudas a{
     color: blue;
 }
+.textfooter{
+    width: 372px;
+    height: 44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #251F24;
+    margin-bottom: 16px;
+
+}
 /*linea*/
 hr{
     margin-top: 40px;
@@ -290,6 +302,24 @@ input::placeholder{
     transform: translate(-50%, -50%);
     width: 16px;
     height: 16px;
+}
+.imgico1{
+    position: absolute;
+    left: 11%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.imgico2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.imgico3{
+    position: absolute;
+    left: 91%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 /*cajas*/
 div{
@@ -391,6 +421,25 @@ div{
     height: 16px;
     position: relative;
 }
-.divformulario{
-    margin-bottom: 80px;
+.divfooter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+.divicon{
+    width: 104px;
+    height: 24px;
+    position: absolute;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+/*footer*/
+footer{
+    background: white;
+    width: 1366px;
+    height: 174px;
+    position: relative;
 }
