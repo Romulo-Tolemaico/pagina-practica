@@ -22,38 +22,9 @@ body{
     margin: auto;
 }
 
-.nav-main{
-    font-size: 17px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-}
-
-.nav-main ul{
-    display: flex;
-}
-
-.nav-main ul li a{
-    padding: 6px;
-}
-
-.nav-main ul li a:hover{
-    border-bottom: 2px solid #A5A3A5;
-}
-
-.nav-main ul li{
-    padding: 17px;
-}
-
-.nav-main ul.nav-menu{
-    flex: 1;
-    margin: 20px;
-}
-
 .showcase{
-    width: 100%;
-    margin: 16px;
+    width: 636px;
+    height: 174;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -67,31 +38,34 @@ a{
 ul{
     list-style: none;
 }
+
 /*texto*/
 h1{
     color: #ffffff;
     font-size: 64px;
     font-family: 'Nunito', sans-serif;
-    margin: 16px;
     width: 636px;
     height: 174px;
+    margin-bottom: 16px;
 }
 
 h2{
     color: #ffffff;
     font-family: 'Nunito', sans-serif;
     font-size: 40px;
-    margin-left: 16px;
     margin-bottom: 40px;
     width: 636px;
     height: 55px;
+}
+
+.h2conceptos{
+    height: 110px;
 }
 
 h3{
     color: #ffffff;
     font-family: 'Nunito', sans-serif;
     font-size: 32px;
-    margin-left: 16px;
     margin-bottom: 16px;
     width: 636px;
     height: 44px;
@@ -104,7 +78,6 @@ h4{
 p{
     color: #A5A3A5;
     font-size: 17px;
-    margin-left: 16px;
     width: 636px;
     font-family: 'Roboto', sans-serif;
 }
@@ -126,10 +99,79 @@ p{
     height: 96px;
 }
 
-
+.men1{
+    width: 595;
+    height: 32;
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.men2{
+    width: 206;
+    height: 32;
+    color: #ffffff;
+    font-size: 24px;
+}
+.textHyper{
+    margin-bottom: 16px;
+    height: 48px;
+}
+.textcode{
+    color: #ffffff;
+    width: 511px;
+    height: 288px;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 400;
+}
+.texteti1{
+    height: 72px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.texteti2{
+    height: 120px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+}
+.textdom{
+    height: 96px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.textsemantica{
+    height: 192px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+}
+.textatributos{
+    height: 96px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+}
+.textcss{
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
 /*linea*/
 hr{
-    margin-left: 16px;
     margin-top: 40px;
     margin-bottom: 40px;
     width: 636px;
@@ -139,36 +181,92 @@ hr{
 .imgbig{
     width: 80px;
     height: 80px;
-    margin-left: 16px;
     margin-bottom: 16px;
 }
+.imgdom{
+    width: 636px;
+    height: 332.13px;
+}
+.imgcss{
+    width: 636px;
+    height: 302px;
+}
 /*cajas*/
+
+div{
+    width: 636px;
+}
+
+.divsetup{
+    height: 1151px;
+}
 .divgoogle{
-    width: 636px;
     height: 204px;
-    margin-left: 16px;
     margin-bottom: 40px;
 }
-
 .divvisual{
-    width: 636px;
     height: 252px;
-    margin-left: 16px;
     margin-bottom: 40px;
 }
-
 .divfigma{
-    width: 636px;
     height: 228px;
-    margin-left: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.divgithub{
+    height: 252px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.divgithub{
-    width: 636px;
-    height: 252px;
-    margin-left: 16px;
-    margin-top: 40px;
+.divMensaje{
+    margin-top: 80px;
+    background: #3A3539;
+    height: 128px;
+    position: relative;
+}
+.divsubmensaje{
+    width: 595px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.divconceptos{
+    margin-top: 63px;
+    height: 2448.13px;
+}
+.divhtml{
     margin-bottom: 40px;
+}
+.divcode{
+    background: #3A3539;
+    height: 368px;
+    position: relative;
+}
+.divsubcode{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 511px;
+    height: 288px;
+}
+.divetiquetas{
+    margin-bottom: 40px;
+}
+.divdoom{
+    margin-bottom: 40px;
+}
+.divsemantica{
+    margin-bottom: 40px;
+}
+.divatributos{
+    margin-bottom: 40px;
+}
+.divcss{
+
 }

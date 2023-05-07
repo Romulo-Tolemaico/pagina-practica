@@ -17,37 +17,16 @@
 
 </head>
 <body>
-    <!--<header class="header">
-    </header>-->
     <div class="conteiner">
-        <nav class="nav-main">
-                <h4>VARIANTES DEL PROYECTO</h4>
-                <ul class="nav-menu">
-                    <li>
-                        <a href="#">Nemium A</a>
-                    </li>
-                    <li>
-                        <a href="#">Nemium B</a>
-                    </li>
-                    <li>
-                        <a href="#">Nemium C</a>
-                    </li>
-                    <li>
-                        <a href="#">Nemium D</a>
-                    </li>
-                    <li>
-                        <a href="#">Nemium D</a>
-                    </li>
-                </ul>
-        </nav>
         <header class="showcase">
             <h1>Curso esencial de HTML y CSS</h1>
             <p class="textHeader">Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de contenidos, en el nivel 2 aprenderás de componentes y en 3 sobre layouts.</p>
         </header>
+
         <hr>
         
         <div class="setup">
-            <h2>Setup</h2>
+            <h2 class="h2Setup">Setup</h2>
             <div class="divgoogle">
                 <img src="img/chrome-white.png" alt="google" class="imgbig">
                 <h3>1. Google Chrome</h3>
@@ -70,19 +49,65 @@
             </div>
         </div>
 
+        <div class="divMensaje">
+            <div class="divsubmensaje">
+                <p class="men1">“Este es el inicio de tu carrera como Desarrollador Web”</p>
+                <p class="men2">- Leonidas Esteban</p>
+            </div>
+        </div>
+
+        <div class="divconceptos">
+            <h2 class="h2conceptos">Conceptos esenciales del Desarrollo Web</h2>
+            <div class="divhtml">
+                <h3>HTML</h3>
+                <p class="textHyper">Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado y la estructura del contenido.</p>
+
+                <div class="divcode">
+                    <div class="divsubcode">
+                        <p class="textcode">
+                            &lt;!DOCTYPE html&gt;<br>
+                            &lt;&html lang="en"&gt;<br>
+                            &lt;head&gt;<br>
+                            &lt;meta charset="UTF-8"&gt;<br>
+                            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+                            &lt;title&gt;Document&lt;/title&gt;<br>
+                            &lt;/head&gt;<br>
+                            &lt;body&gt;<br>
+                            <br>
+                            &lt;/body&gt;<br>
+                            &lt;/html&gt;
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="divetiquetas">
+                <h3>Etiquetas</h3>
+                <p class="texteti1">Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene características y usos diferentes aunque visualmente den un resultado similar.</p>
+                <p class="texteti2">Muchas etiquetas son fácil de diferencias como los headings o las imágenes y otras diferentes como header, footer, section o div, aquí es donde la semántica será la respuesta y si sabemos un poco de inglés también podremos darnos una pequeña idea de su uso pero en este curso vamos a usar las más importantes y que serán parte de tu día a día como Software Developer.</p>
+            </div>
+            <div class="divdoom">
+                <h3>DOM</h3>
+                <p class="textdom">El Document Object Model es una estructura de árbol que representará todos nuestros proyectos web como si un árbol genealógico fuera: padres, hijos, hermanos con niveles infinitos. cuando entendemos esta anidación podemos identificar dependencias, herencias en css y que tan complejo es nuestro proyecto.</p>
+                <img src="img/dom-black.jpg" alt="dom" class="imgdom">
+            </div>
+            <div class="divsemantica">
+                <h3>Semántica</h3>
+                <p class="textsemantica">La semántica le brinda sentido a cada elemento existen en un sitio web, algunos elementos será meramente decorativos y no deben significar nada pero otros serán títulos y deberán estar en diferente jerarquías o alguna secciones serán más relevantes que otras, esto ayudará a los motores de búsqueda como Google o Duck Duck Go a diferenciar tu contenido, categorizar y será la herramientas más valiosa para estar en los primeros resultados de búsqueda SEO. También ayudará a la accesibilidad de tu sitio web, para que personas con habilidades diferentes puedan entender cada contenido.</p>
+            </div>
+            <div class="divatributos">
+                <h3>Atributos</h3>
+                <p class="textatributos">Los atributos le dan características extra a las etiquetas para complementar información y son pre programadas por el navegador, algunos atributos funcionan en todas las etiquetas de la misma forma como ‘class’ pero otros atributos funcionan en solo alguna etiquetas como src</p>
+            </div>
+            <div class="divcss">
+                <h3>CSS</h3>
+                <p class="textcss">Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML</p>
+                <img src="img/css-black.jpg" alt="css" class="imgcss">
+            </div>
+        </div>
+
     </div>
     <!--
-    <main class="main">
-        <section class="section">
-
-        </section>
-        <aside class="aside">
-
-        </aside>
-    </main><br>
-    <footer class="footer">
-
-    </footer>
+    
 
     
         <div class="content-all">
@@ -95,59 +120,8 @@
             </div>
             <hr>
             
-            <div>
-                <p>“Este es el inicio de tu carrera como Desarrollador Web”</p>
-                <p>- Leonidas Esteban</p>
-            </div>
-            <div>
-                <h2>Conceptos esenciales del Desarrollo Web</h2>
-                <div>
-                    <h3>HTML</h3>
-                    <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado y la estructura del contenido.</p>
-                    <div>
-                        <p>
-                            <pre>
-                                <code>
-                                    &lt;!DOCTYPE html&lt;
-                                    &lt;&html lang="en"&lt;
-                                    &lt;head&lt;
-                                    &lt;meta charset="UTF-8"&lt;
-                                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&lt;
-                                    &lt;title&lt;Document&lt;/title&lt;
-                                    &lt;/head&lt;
-                                    &lt;body&lt;
-
-                                    &lt;/body&lt;
-                                    &lt;/html&lt;
-                                </code>
-                            </pre>
-                        </p>
-                    </div>
-                </div>
-                <div>
-                    <h3>Etiquetas</h3>
-                    <p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene características y usos diferentes aunque visualmente den un resultado similar.</p>
-                    <p>Muchas etiquetas son fácil de diferencias como los headings o las imágenes y otras diferentes como header, footer, section o div, aquí es donde la semántica será la respuesta y si sabemos un poco de inglés también podremos darnos una pequeña idea de su uso pero en este curso vamos a usar las más importantes y que serán parte de tu día a día como Software Developer.</p>
-                </div>
-                <div>
-                    <h3>DOM</h3>
-                    <p>El Document Object Model es una estructura de árbol que representará todos nuestros proyectos web como si un árbol genealógico fuera: padres, hijos, hermanos con niveles infinitos. cuando entendemos esta anidación podemos identificar dependencias, herencias en css y que tan complejo es nuestro proyecto.</p>
-                    <img src="img/dom-black.jpg" alt="">
-                </div>
-                <div>
-                    <h3>Semántica</h3>
-                    <p>La semántica le brinda sentido a cada elemento existen en un sitio web, algunos elementos será meramente decorativos y no deben significar nada pero otros serán títulos y deberán estar en diferente jerarquías o alguna secciones serán más relevantes que otras, esto ayudará a los motores de búsqueda como Google o Duck Duck Go a diferenciar tu contenido, categorizar y será la herramientas más valiosa para estar en los primeros resultados de búsqueda SEO. También ayudará a la accesibilidad de tu sitio web, para que personas con habilidades diferentes puedan entender cada contenido.</p>
-                </div>
-                <div>
-                    <h3>Atributos</h3>
-                    <p>Los atributos le dan características extra a las etiquetas para complementar información y son pre programadas por el navegador, algunos atributos funcionan en todas las etiquetas de la misma forma como ‘class’ pero otros atributos funcionan en solo alguna etiquetas como src</p>
-                </div>
-                <div>
-                    <h3>CSS</h3>
-                    <p>Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML</p>
-                    <img src="img/css-black.jpg" alt="">
-                </div>
-            </div>
+            
+            
             <div>
                 <h2>Modelo de caja</h2>
                 <div>
