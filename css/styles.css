@@ -194,12 +194,53 @@ p{
     height: 24px;
     color: #ffffff;
 }
+.textdudas{
+    height: 24px;
+    left: 530px;
+    top: 6145px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.textdudas a{
+    color: blue;
+}
 /*linea*/
 hr{
     margin-top: 40px;
     margin-bottom: 40px;
     width: 636px;
     color: #A5A3A5;
+}
+/*formulario*/
+input[type=text]{
+    width: 636px;
+    height: 48px;
+    border: 2px solid white;
+    background: none;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    color: #ffffff;
+}
+input[type=submit]{
+    width: 636px;
+    height: 48px;
+    border: 2px solid #157EFB;
+    background: #157EFB;
+    color: #ffffff;
+    border-radius: 8px;
+}
+input::placeholder{
+    color: #ffffff;
+    height: 24px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 /*imagenes*/
 .imgbig{
@@ -349,4 +390,7 @@ div{
 .divcircle{
     height: 16px;
     position: relative;
+}
+.divformulario{
+    margin-bottom: 80px;
 }
