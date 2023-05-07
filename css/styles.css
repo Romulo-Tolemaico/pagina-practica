@@ -35,10 +35,6 @@ a{
     text-decoration: none;
 }
 
-ul{
-    list-style: none;
-}
-
 /*texto*/
 h1{
     color: #ffffff;
@@ -65,10 +61,13 @@ h2{
 h3{
     color: #ffffff;
     font-family: 'Nunito', sans-serif;
-    font-size: 32px;
     margin-bottom: 16px;
     width: 636px;
     height: 44px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 44px;
 }
 
 h4{
@@ -170,6 +169,31 @@ p{
     line-height: 24px;
     margin-bottom: 16px;
 }
+.textdivmodel{
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.textpuntos{
+    height: 96px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+}
+.textlista1{
+    margin-left: 16px;
+    height: 24px;
+    color: #ffffff;
+}
+.textlista2{
+    margin-left: 16px;
+    height: 24px;
+    color: #ffffff;
+}
 /*linea*/
 hr{
     margin-top: 40px;
@@ -191,8 +215,42 @@ hr{
     width: 636px;
     height: 302px;
 }
+.divslide img{
+    width: 636px;
+    height: 371px;
+    margin-bottom: 16px;
+}
+.imgcircle1{
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 46%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+    height: 16px;
+}
+.imgcircle2{
+    border-radius: 50%;
+    background: rgba(66, 66, 66, 0.2);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+    height: 16px;
+}
+.imgcircle3{
+    border-radius: 50%;
+    background: rgba(66, 66, 66, 0.2);
+    position: absolute;
+    left: 54%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+    height: 16px;
+}
 /*cajas*/
-
 div{
     width: 636px;
 }
@@ -238,6 +296,7 @@ div{
 .divconceptos{
     margin-top: 63px;
     height: 2448.13px;
+    margin-bottom: 122px;
 }
 .divhtml{
     margin-bottom: 40px;
@@ -267,6 +326,27 @@ div{
 .divatributos{
     margin-bottom: 40px;
 }
-.divcss{
 
+.divmodelo{
+    margin-bottom: 51px;
+}
+.divmodel{
+    margin-bottom: 40px;
+    height: 209px;
+}
+.divfisicas{
+    margin-bottom: 40px;
+    height: 204px;
+}
+.divlogicas{
+    margin-bottom: 40px;
+    height: 276px;
+}
+.divimagen{
+    margin-bottom: 40px;
+    height: 452px;
+}
+.divcircle{
+    height: 16px;
+    position: relative;
 }
