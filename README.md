@@ -14,7 +14,10 @@ No se requiere tener nada instalado adicionalmente, salvo el navegador
 #### Stack
     - Visual Studio Code
     - Google Chrome
-    - html
-    - css
+    - HTML
+    - CSS
+    - Git
+    - Github
+    - Live Server
 #### Autor
     tolemaicor@gmail.com
