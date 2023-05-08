@@ -363,6 +363,13 @@ div{
     width: 636px;
 }
 
+.divencabezado{
+    width: 1366px;
+    height: 350px;
+    background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
+    margin-bottom: 64;
+}
+
 .divcontenido{
     width: 306px;
     height: 304px;
