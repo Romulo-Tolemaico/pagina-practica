@@ -18,9 +18,8 @@ body{
 }
 
 .conteiner{
-    width: 90%;
-    margin: auto;
-    margin-bottom: 80px;
+    height: 6150px;
+    position: relative;
 }
 
 .showcase{
@@ -73,6 +72,14 @@ h3{
 
 h4{
     color: #ffffff;
+    width: 176px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
 }
 
 p{
@@ -80,6 +87,31 @@ p{
     font-size: 17px;
     width: 636px;
     font-family: 'Roboto', sans-serif;
+}
+
+.divcontenido{
+    color: #ffffff;
+}
+
+.divvariantes ul{
+    list-style: none;
+}
+
+.divvariantes ul li{
+    margin-bottom: 16px;
+}
+
+.divcontenido ol{
+    color: #A5A3A5;
+    margin-top: 16px;
+    margin-left: 48px;
+}
+.divcontenido ol li{
+    margin-bottom: 16px;
+}
+
+.divconcept{
+
 }
 
 .textHeader{
@@ -255,6 +287,11 @@ input::placeholder{
     line-height: 24px;
 }
 /*imagenes*/
+.divcontenido img{
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+}
 .imgbig{
     width: 80px;
     height: 80px;
@@ -324,6 +361,17 @@ input::placeholder{
 /*cajas*/
 div{
     width: 636px;
+}
+
+.divcontenido{
+    width: 306px;
+    height: 304px;
+}
+
+.divvariantes{
+    width: 306px;
+    height: 240px;
+    margin-bottom: 112px;
 }
 
 .divsetup{
@@ -435,6 +483,15 @@ div{
     left: 30%;
     transform: translate(-50%, -50%);
     position: relative;
+}
+.divbloke{
+    position: absolute;
+    left: 90%;
+}
+.divmain{
+    margin-top: 16px;
+    position: absolute;
+    left: 25%;
 }
 /*footer*/
 footer{

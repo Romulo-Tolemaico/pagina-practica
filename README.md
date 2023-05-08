@@ -6,3 +6,4 @@ actualizando la caja de conceptos
 actualizando la caja de modelos
 actualizando la caja de formularios
 actualizando el footer
+finalizando la pagina
